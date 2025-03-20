@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 import os
 import pandas as pd
 import psycopg2
@@ -107,14 +101,6 @@ if __name__ == "__main__":
         load_to_database(cleaned_data, "postgresql://user:password@host:port/dbname")
         visualize_data(cleaned_data)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
